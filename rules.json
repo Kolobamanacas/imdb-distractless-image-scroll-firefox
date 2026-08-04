@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||api.graphql.imdb.com/*operationName=WebAds*interstitial",
+      "initiatorDomains": ["imdb.com"],
+      "requestDomains": ["imdb.com"],
+      "resourceTypes": ["xmlhttprequest", "other"],
+      "isUrlFilterCaseSensitive": false
+    }
+  }
+]
